@@ -212,6 +212,119 @@
         "Data",
         "Stato"
       ]
+    },
+    {
+      "id": "mercato-settimanale",
+      "title": "Mercato settimanale",
+      "description": "Presenze degli operatori, sostituzioni e graduatoria dei precari al 20/11/2026.",
+      "metrics": [
+        {
+          "label": "Operatori presenti",
+          "value": "5"
+        },
+        {
+          "label": "Assenti sostituiti",
+          "value": "3"
+        },
+        {
+          "label": "Precari in graduatoria",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Posteggio",
+        "Operatore titolare",
+        "Presenza",
+        "Precario presente",
+        "Sostituisce",
+        "Posizione in graduatoria",
+        "Data graduatoria"
+      ],
+      "rows": [
+        [
+          "A01",
+          "Bottega dei Sapori",
+          "Presente",
+          "—",
+          "—",
+          "—",
+          "20/11/2026"
+        ],
+        [
+          "A02",
+          "Fiori del Borgo",
+          "Assente",
+          "Marta Riva",
+          "Fiori del Borgo",
+          "1",
+          "20/11/2026"
+        ],
+        [
+          "A03",
+          "Orto delle Valli",
+          "Presente",
+          "—",
+          "—",
+          "—",
+          "20/11/2026"
+        ],
+        [
+          "A04",
+          "Tessuti Aurora",
+          "Assente",
+          "Luca Serra",
+          "Tessuti Aurora",
+          "2",
+          "20/11/2026"
+        ],
+        [
+          "A05",
+          "Formaggi del Piano",
+          "Presente",
+          "—",
+          "—",
+          "—",
+          "20/11/2026"
+        ],
+        [
+          "A06",
+          "Ceramiche Nuove",
+          "Assente",
+          "Elena Costa",
+          "Ceramiche Nuove",
+          "3",
+          "20/11/2026"
+        ],
+        [
+          "A07",
+          "Miele delle Colline",
+          "Presente",
+          "—",
+          "—",
+          "—",
+          "20/11/2026"
+        ],
+        [
+          "A08",
+          "Pane di Casa",
+          "Presente",
+          "—",
+          "—",
+          "—",
+          "20/11/2026"
+        ]
+      ],
+      "form": [
+        "Posteggio",
+        "Operatore titolare",
+        "Presenza",
+        "Precario presente",
+        "Sostituisce",
+        "Posizione in graduatoria",
+        "Data graduatoria"
+      ],
+      "statusColumn": 2,
+      "chartColumn": 2
     }
   ],
   "theme": {
