@@ -1,0 +1,221 @@
+{
+  "title": "Gestione segnalazioni e turni",
+  "description": "Registro per seguire le segnalazioni, assegnarle agli agenti e tenere sotto controllo scadenze e servizi del giorno.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Un colpo d’occhio sulle pratiche aperte, le scadenze e i servizi in programma.",
+      "metrics": [
+        {
+          "label": "Segnalazioni aperte",
+          "value": "12"
+        },
+        {
+          "label": "Verbali del mese",
+          "value": "18"
+        },
+        {
+          "label": "Permessi rilasciati",
+          "value": "7"
+        },
+        {
+          "label": "Servizi di oggi",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PL-2408",
+          "Sosta da verificare",
+          "Lumo – Piazza delle Vele",
+          "Nubi",
+          "12/06/2026",
+          "Da assegnare"
+        ],
+        [
+          "PL-2407",
+          "Segnalazione stradale",
+          "Vela – Via dei Tigli Blu",
+          "Riva",
+          "12/06/2026",
+          "In gestione"
+        ],
+        [
+          "PL-2406",
+          "Richiesta permesso",
+          "Nubi – Largo delle Fontane Chiare",
+          "Lumo",
+          "13/06/2026",
+          "In attesa di controllo"
+        ],
+        [
+          "PL-2405",
+          "Controllo area",
+          "Riva – Giardino delle Lanterne",
+          "Vela",
+          "14/06/2026",
+          "In gestione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "segnalazioni",
+      "title": "Segnalazioni",
+      "description": "Cerca e filtra le pratiche. Assegna un agente e controlla la data entro cui intervenire.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PL-2408",
+          "Sosta da verificare",
+          "Lumo – Piazza delle Vele",
+          "Nubi",
+          "12/06/2026",
+          "Da assegnare"
+        ],
+        [
+          "PL-2407",
+          "Segnalazione stradale",
+          "Vela – Via dei Tigli Blu",
+          "Riva",
+          "12/06/2026",
+          "In gestione"
+        ],
+        [
+          "PL-2406",
+          "Richiesta permesso",
+          "Nubi – Largo delle Fontane Chiare",
+          "Lumo",
+          "13/06/2026",
+          "In attesa di controllo"
+        ],
+        [
+          "PL-2405",
+          "Controllo area",
+          "Riva – Giardino delle Lanterne",
+          "Vela",
+          "14/06/2026",
+          "In gestione"
+        ],
+        [
+          "PL-2404",
+          "Segnalazione sosta",
+          "Vela – Viale dei Nembi",
+          "Da assegnare",
+          "15/06/2026",
+          "Da assegnare"
+        ],
+        [
+          "PL-2403",
+          "Richiesta permesso",
+          "Lumo – Piazza del Faro Quieto",
+          "Nubi",
+          "16/06/2026",
+          "In attesa di controllo"
+        ],
+        [
+          "PL-2402",
+          "Controllo viabilità",
+          "Riva – Via delle Campanelle",
+          "Riva",
+          "17/06/2026",
+          "In gestione"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ]
+    },
+    {
+      "id": "turni-e-servizi",
+      "title": "Turni e servizi",
+      "description": "Organizza i servizi con gli agenti disponibili. Le assegnazioni in sospeso aiutano a vedere subito dove manca personale.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "SV-0612",
+          "Pattuglia mattino",
+          "Lumo – Piazza delle Vele",
+          "Nubi",
+          "12/06/2026",
+          "Confermato"
+        ],
+        [
+          "SV-0612-B",
+          "Controllo viabilità",
+          "Vela – Via dei Tigli Blu",
+          "Riva",
+          "12/06/2026",
+          "Confermato"
+        ],
+        [
+          "SV-0613",
+          "Pattuglia pomeriggio",
+          "Nubi – Largo delle Fontane Chiare",
+          "Da assegnare",
+          "13/06/2026",
+          "Da coprire"
+        ],
+        [
+          "SV-0613-B",
+          "Controllo area",
+          "Riva – Giardino delle Lanterne",
+          "Lumo",
+          "13/06/2026",
+          "Da confermare"
+        ],
+        [
+          "SV-0614",
+          "Pattuglia mattino",
+          "Vela – Viale dei Nembi",
+          "Vela",
+          "14/06/2026",
+          "Confermato"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-notte",
+    "fonts": "istituzionale"
+  }
+}
